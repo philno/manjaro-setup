@@ -19,3 +19,5 @@ Instead, I recommend just increasing all font sizes by 2 to 3 points in `Fonts` 
 ## Shortcuts
 
 Change global shortcuts so `Super` + `T` opens a terminal. Set `Super` + `Left` / `Right` to switch through Desktops.
+
+Add Keyboard layout for German Umlaute: `Language: English`, `Layout: EurKEY`. This makes it so most special characters can be accessed with `Right Alt`.
