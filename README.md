@@ -21,3 +21,11 @@ Instead, I recommend just increasing all font sizes by 2 to 3 points in `Fonts` 
 Change global shortcuts so `Super` + `T` opens a terminal. Set `Super` + `Left` / `Right` to switch through Desktops.
 
 Add Keyboard layout for German Umlaute: `Language: English`, `Layout: EurKEY`. This makes it so most special characters can be accessed with `Right Alt`.
+
+## Package manager optimization
+
+Follow the steps described in the [ArchWiki](https://wiki.archlinux.org/index.php/Makepkg#Utilizing_multiple_cores_on_compression) to speed up the installation of AUR packages.
+
+## Undervolting for laptops
+
+It is possible to undervolt my CPU on my laptop using `python-undervolt` and `throttled` packages.
