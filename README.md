@@ -23,6 +23,9 @@ Instead, I recommend just increasing all font sizes by 2 to 3 points in `Fonts` 
 
 For XFCE, the DPI can be adjusted (recommended: 120) in the `Settings Editor` under `xsettings/xft`. To fix titlebar size, download [adapta XFWM4](https://www.xfce-look.org/p/1262068/) which has much larger buttons than the default adapta theme.
 
+Terminal colors: [base16 pack](https://github.com/afq984/base16-xfce4-terminal/tree/master/colorschemes).
+Recommended preset for adapta: One Dark
+
 ### Firefox
 
 Scaling can be adjusted by setting the `layout.css.devPixelsPerPx` property in `about:config`. Recommended: 1.2 or 1.25
