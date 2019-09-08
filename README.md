@@ -26,6 +26,8 @@ For XFCE, the DPI can be adjusted (recommended: 120) in the `Settings Editor` un
 Terminal colors: [base16 pack](https://github.com/afq984/base16-xfce4-terminal/tree/master/colorschemes).
 Recommended preset for adapta: One Dark
 
+Windows-like taskbar icons with launcher: [DockBarX](https://github.com/M7S/dockbarx)
+
 ### Firefox
 
 Scaling can be adjusted by setting the `layout.css.devPixelsPerPx` property in `about:config`. Recommended: 1.2 or 1.25
