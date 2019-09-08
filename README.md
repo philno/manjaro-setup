@@ -24,7 +24,7 @@ Instead, I recommend just increasing all font sizes by 2 to 3 points in `Fonts` 
 For XFCE, the DPI can be adjusted (recommended: 120) in the `Settings Editor` under `xsettings/xft`. To fix titlebar size, download [adapta XFWM4](https://www.xfce-look.org/p/1262068/) which has much larger buttons than the default adapta theme.
 
 Terminal colors: [base16 pack](https://github.com/afq984/base16-xfce4-terminal/tree/master/colorschemes).
-Recommended preset for adapta: One Dark
+Recommended preset for adapta: One Dark or Material
 
 Windows-like taskbar icons with launcher: [DockBarX](https://github.com/M7S/dockbarx)
 
