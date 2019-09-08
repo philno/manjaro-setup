@@ -13,8 +13,19 @@ Change `Removable devices` settings so data partitions are mounted on login.
 ## Scaling content on small display
 
 I use a Dell XPS 13 and thus have a relatively small screen. With default settings, text is barely readable. 
+
+### KDE
+
 I recommend *not* to use the `Scale display` or `Force font dpi` options as recommended in other guides. The reason for this is that some apps (Qt based?) fail to render fonts correctly. 
 Instead, I recommend just increasing all font sizes by 2 to 3 points in `Fonts` settings.
+
+### XFCE
+
+For XFCE, the DPI can be adjusted (recommended: 120) in the `Settings Editor` under `xsettings/xft`. To fix titlebar size, download [adapta XFWM4](https://www.xfce-look.org/p/1262068/) which has much larger buttons than the default adapta theme.
+
+### Firefox
+
+Scaling can be adjusted by setting the `layout.css.devPixelsPerPx` property in `about:config`. Recommended: 1.2 or 1.25
 
 ## Shortcuts
 
