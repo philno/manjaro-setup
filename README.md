@@ -38,6 +38,8 @@ Change global shortcuts so `Super` + `T` opens a terminal. Set `Super` + `Left` 
 
 Add Keyboard layout for German Umlaute: `Language: English`, `Layout: EurKEY`. This makes it so most special characters can be accessed with `Right Alt`.
 
+Use `gnome disk utility` to enable automounting data partitions on login. 
+
 ## Package manager optimization
 
 Follow the steps described in the [ArchWiki](https://wiki.archlinux.org/index.php/Makepkg#Utilizing_multiple_cores_on_compression) to speed up the installation of AUR packages.
