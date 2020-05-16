@@ -6,7 +6,8 @@ I prefer KDE because it is lightweight and very customizable.
 ## First steps after installation
 
 Install `pamac`, remove `octopi` and related packages. Enable AUR sources in pamac settings.
-Download `adapta` theme for KDE and GTK. Set theme options in `System Settings/Appearance`.
+Download `Qogir` theme for KDE, GTK and kvantum. Set theme options in `System Settings/Appearance`.
+Download and apply `qogir-icons`.
 
 Change `Removable devices` settings so data partitions are mounted on login. Alternative: Use `gnome-disk-utility` and edit mount options.
 
