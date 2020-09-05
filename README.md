@@ -11,6 +11,8 @@ Download and apply `qogir-icons`.
 
 Change `Removable devices` settings so data partitions are mounted on login. Alternative: Use `gnome-disk-utility` and edit mount options.
 
+Enable `TRIM` support by running `sudo systemctl enable fstrim.timer`. This will clean up deleted files once a week.
+
 ## Scaling content on small display
 
 I use a Dell XPS 13 and thus have a relatively small screen. With default settings, text is barely readable. 
