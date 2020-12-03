@@ -9,7 +9,7 @@ Install `pamac`, remove `octopi` and related packages. Enable AUR sources in pam
 Download `Qogir` theme for KDE, GTK and kvantum. Set theme options in `System Settings/Appearance`.
 Download and apply `qogir-icons`.
 
-Change `Removable devices` settings so data partitions are mounted on login. Alternative: Use `gnome-disk-utility` and edit mount options.
+Use `gnome-disk-utility` and edit mount options. Do not auto mount on `/run`. You can use e.g.`/data/backup`.
 
 Enable `TRIM` support by running `sudo systemctl enable fstrim.timer`. This will clean up deleted files once a week.
 
