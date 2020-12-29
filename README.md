@@ -13,6 +13,12 @@ Use `gnome-disk-utility` and edit mount options. Do not auto mount on `/run`. Yo
 
 Enable `TRIM` support by running `sudo systemctl enable fstrim.timer`. This will clean up deleted files once a week.
 
+Copy ssh keys and set the correct [permissions](https://gist.github.com/grenade/6318301). To unlock keys with passphrase on login, install `ksshaskpass` and `keyring`. Add the following to `~/.bashrc`:
+```
+export SSH_ASKPASS='/usr/bin/ksshaskpass'
+eval $(keychain --eval --quiet id_rsa)
+```
+
 ## Scaling content on small display
 
 I use a Dell XPS 13 and thus have a relatively small screen. With default settings, text is barely readable. 
